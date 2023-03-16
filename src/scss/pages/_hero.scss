@@ -1,0 +1,62 @@
+.hero {
+  padding: 120px 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  // .hero__container
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  // .hero__col
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  // .hero__title
+
+  &__title {
+    line-height: 1.25;
+    span {
+      color: $primary;
+    }
+  }
+
+  // .hero__text
+
+  &__text {
+    line-height: 2;
+    max-width: 520px;
+  }
+
+  // .hero__button
+
+  &__button {
+    align-self: flex-start;
+  }
+
+  // .hero__image
+
+  &__image {
+    flex-shrink: 0;
+    width: 600px;
+    // height: 600px;
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+}
+.container {
+}
+.button {
+  // .button_secondary
+
+  &_secondary {
+  }
+}
