@@ -1,0 +1,32 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+  padding: 30px 0;
+
+  // .header__container
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  // .header__logo
+
+  &__logo {
+  }
+
+  // .header__nav
+
+  &__nav {
+  }
+
+  // .header__button
+
+  &__button {
+  }
+}
