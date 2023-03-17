@@ -101,3 +101,31 @@
     }
   }
 }
+
+.text-primary {
+  color: $primary;
+}
+.text-secondary {
+  color: $secondary;
+}
+
+.section {
+  margin: 100px 0;
+  &__header {
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  &__suptitle {
+  }
+  &__title {
+    &_sm {
+      font-size: 30px;
+    }
+  }
+}
